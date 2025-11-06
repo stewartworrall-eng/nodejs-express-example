@@ -3,7 +3,7 @@
 * Open the repository in VSCode
 * Open a terminal in VSCode (press ctrl + `)
 * npm install express
-* run node.exe index.js
+* node index.js
 
 It will hopefully be running now, you can go to a browser and set the address as 127.0.0.1:8000
 * Try using the browsers developer tools to see what is going on
@@ -14,7 +14,8 @@ Prerequisite
 VSCode plugin https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
 
 ## create the database
-* In the root folder (where you cloned the git repo), open a gitbash
+* In the root folder of the git repository, open a gitbash
+* npm install sqlite3
 * run the command **touch datasource.db**
 
 ## open the database in VSCode
@@ -31,5 +32,6 @@ VSCode plugin https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscod
 * run index.js using the command **node index.js**
 * Go to the browser and click on the text.
 * Have a look at public/js/app.js and see if you can work out what is happening.
+
 
 
